@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edfac8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Welcome To StarBucks!!"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-light"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_below="@id/welcometext"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/offertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special New Year Offer"
+        android:textColor="#f73f07"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:textAllCaps="true"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/coffeetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/offertext"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="Grab your cup of COFFEE at 99/-"/>
+    <TextView
+        android:id="@+id/offer1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:layout_below="@id/coffeetext"
+        android:text="Get Short Cappuccino,Latte,Hot Chocolate or Tea with any food item at just Rs.380"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="300dp"
+        android:src="@drawable/food"
+        android:layout_below="@id/offer1text"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:text="Location: SCO 35-36, D - Block, Ranjit Avenue, Amritsar, Punjab 143001\nPhone No: 0183-62556"
+        />
+/>
+</RelativeLayout>
